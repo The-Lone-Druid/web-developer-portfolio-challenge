@@ -12,9 +12,21 @@ import { ProjectViewComponent } from './components/project-view/project-view.com
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, TopBarComponent, HeroComponent, PartnersComponent, ProjectViewComponent, AboutMeComponent, ContactMeComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    TopBarComponent,
+    HeroComponent,
+    PartnersComponent,
+    ProjectViewComponent,
+    AboutMeComponent,
+    ContactMeComponent,
+    FooterComponent,
+    ProjectsComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,1 +1,10 @@
-<p>project-view works!</p>
+<div class="text-white">
+  <img [src]="project?.image" class="img-fluid w-100" alt="" />
+  <h2 class="mt-4">
+    {{ project?.name }}
+    <img src="./assets/images" alt="" />
+  </h2>
+  <p class="text-secondary fs-5">
+    {{ project?.description }}
+  </p>
+</div>
