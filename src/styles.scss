@@ -25,6 +25,14 @@ h6 {
   @extend .font-prata;
 }
 
+.text-readonly-light {
+  color: #aeaeae;
+}
+
+.bg-dark-grey {
+  background: #26262e;
+}
+
 // Colors
 $white: #fff;
 $dark: #1a1a1a;

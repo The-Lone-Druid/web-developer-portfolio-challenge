@@ -1,8 +1,13 @@
 <div class="bg-black">
   <div class="container">
-    <app-top-bar></app-top-bar>
+    <app-top-bar [isOpen]="isOpen" (toggle)="toggle()"></app-top-bar>
     <app-hero></app-hero>
     <app-partners></app-partners>
     <app-projects></app-projects>
   </div>
+  <app-about-me></app-about-me>
+  <div class="container">
+    <app-contact-me></app-contact-me>
+  </div>
+  <app-footer></app-footer>
 </div>
